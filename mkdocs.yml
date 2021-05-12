@@ -1,0 +1,18 @@
+site_name: Neoflow Documentation
+extra_css:
+  - stylesheets/extra.css
+theme:
+  name: material
+  favicon: images/neoflow-logo.svg
+  logo: images/neoflow-logo.svg
+  font: Roboto
+  palette:
+    primary: md-primary-fg-color
+nav:
+    - Introduction: index.md
+    - Platform Overview: platform-overview.md
+    - Platform Features: platform-features.md
+    - Data Governance: data-governance.md
+    - Key Concepts: key-concepts.md
+    - API User Guide:  api-user-guide.md
+    - Security:  security.md
