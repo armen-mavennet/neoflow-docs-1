@@ -1,10 +1,8 @@
-# Key Concepts / Standards Work
+# Key Concepts
 
 `Vaish`
 
-Why use of standards explainer!!
-
-The below mentioned standards work are the foundational blocks on the Neoflow platform.
+The Neoflow platform uses the standard specifications developed under W3C. This makes Neoflow technologically interoperable with the various supply chain industry players in the value chain. The below mentioned specifications are the foundational blocks on the platform.
 
 ## Decentralized Identity (DID)
 
@@ -45,8 +43,8 @@ Neoflow uses [W3C-CCG vc-http-api](https://github.com/w3c-ccg/vc-http-api) - a s
 
 ## Traceability Vocabulary
 
-The schemas used for the verifiable credentials are the common traceability vocabulary being developed under [W3C-CCG Traceability Vocabulary](https://w3c-ccg.github.io/traceability-vocab/). This enables the Neoflow platform to be interoperable with the vendors using former mentioned standards.
+The schemas used for the verifiable credentials are the common traceability vocabulary being developed under [W3C-CCG Traceability Vocabulary](https://w3c-ccg.github.io/traceability-vocab/). The vocabularies for Crude Oil Product, Natural Gas Product, BillOfLading for Oil and Gas, Inspection Report and Inbond are fully supported on the platform. This enables the platform to be interoperable with the vendors in the value chain using the former mentioned standards. 
 
-## Revocation (StatusList2021)
+## Revocation
 
-Revocation means invalidating the status of a verifiable credential by its issuer. The information stored in a revoked VC is considered to be invalid. Neoflow supports VC revocation based on the [W3C-CCG Revocation List 2020](https://w3c-ccg.github.io/vc-status-rl-2020/#core-concept) specification. 
+Revocation means invalidating the status of a verifiable credential by its issuer. If the VC is revoked the information stored in a VC is considered to be invalid. Neoflow supports VC revocation based on the [W3C-CCG Status List 2021](https://w3c-ccg.github.io/vc-status-list-2021/) specification. 
