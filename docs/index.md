@@ -19,7 +19,7 @@ Neoflow is able to consume a subset of [GS1 EPCIS](https://www.gs1.org/standards
 
 These events are exposed as Verifiable Credentials that are self-issued by the event creator and are defined on the [Traceability-Vocab](https://github.com/w3c-ccg/traceability-vocab).
 
-## Proof of Origin & Composition 
+## Proof of Origin & Composition  
 
 Production and transformation records are standardized and updated in real-time. Neoflow's underlying blockchain technology enables the creation of a trusted digital history that is attested by each party in the value chain and is impossible to forge. 
 
