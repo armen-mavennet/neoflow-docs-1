@@ -9,10 +9,8 @@ theme:
   palette:
     primary: md-primary-fg-color
 nav:
-    - Introduction: index.md
-    - Platform Overview: platform-overview.md
-    - Platform Features: platform-features.md
+    - Solution: index.md
     - Data Governance: data-governance.md
     - Key Concepts: key-concepts.md
     - API User Guide:  api-user-guide.md
-    - Security:  security.md
+copyright: Copyright &copy; Neoflow. All rights reserved.
