@@ -8,8 +8,11 @@ theme:
   font: Roboto
   palette:
     primary: md-primary-fg-color
+markdown_extensions:
+  - attr_list
 nav:
-    - Solution: index.md
+    - Introduction: index.md
+    - Platform Overview: platform-overview.md
     - Data Governance: data-governance.md
     - Interoperability Standards: interop-standards.md
     - API User Guide:  api-user-guide.md
