@@ -1,10 +1,10 @@
 # Key Concepts
 
-The Neoflow platform uses the standard specifications developed under W3C. This makes Neoflow technologically interoperable with the various supply chain industry players in the value chain. The below mentioned specifications are the foundational blocks on the platform.
+The Neoflow platform relies on a set of standard specifications developed under W3C to enable interoperability with decentralized and traditional IT systems.
 
 ## Decentralized Identity (DID)
 
-Every organization onboarded on the Neoflow platform are uniquely identified by a Decentralized Identifier (DID). DID is a standard developed by [DID Working Group](https://www.w3.org/2019/did-wg/) under [W3C DID specification](https://www.w3.org/TR/did-core) which describes DID as below: 
+Every organization onboarded on the Neoflow platform are uniquely identified by a Decentralized Identifier (DID) and will rely on DID when publishing data on the network. DID is a standard developed by [DID Working Group](https://www.w3.org/2019/did-wg/) under [W3C DID specification](https://www.w3.org/TR/did-core) which describes DID as below: 
 
 > Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID identifies any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) that the controller of the DID decides that it identifies. In contrast to typical, federated identifiers, DIDs have been designed so that they may be decoupled from centralized registries, identity providers, and certificate authorities. Specifically, while other parties might be used to help enable the discovery of information related to a DID, the design enables the controller of a DID to prove control over it without requiring permission from any other party. DIDs are URIs that associate a DID subject with a DID document allowing trustable interactions associated with that subject. 
 >
@@ -14,7 +14,7 @@ Every organization onboarded on the Neoflow platform are uniquely identified by 
 
 ## Verifiable Credential (VC) and Verifiable Presentation (VP)
 
-The information of products and key events that occur in a lifecycle of the supply chain are stored in the form of Verifiable Credentials on the Neoflow platform. Verifiable Credentials are a standard developed by [Verifiable Credentials Working Group](https://www.w3.org/2017/vc/WG/) under [W3C VC Data Model](https://www.w3.org/TR/vc-data-model) which describes VC and VP as below: 
+All product and event information is stored in the form of Verifiable Credentials on the Neoflow platform. Verifiable Credentials are a standard developed by [Verifiable Credentials Working Group](https://www.w3.org/2017/vc/WG/) under [W3C VC Data Model](https://www.w3.org/TR/vc-data-model) which describes VC and VP as below: 
 
 >In the physical world, a credential might consist of: 
 >
@@ -41,7 +41,7 @@ Neoflow uses [W3C-CCG vc-http-api](https://github.com/w3c-ccg/vc-http-api) - a s
 
 ## Traceability Vocabulary
 
-The schemas used for the verifiable credentials are the common traceability vocabulary being developed under [W3C-CCG Traceability Vocabulary](https://w3c-ccg.github.io/traceability-vocab/). The vocabularies for relevant value chain documents, such as crude oil and natural gas certificates of origin, delivery tickets, inspection reports and in-bonds are fully supported on the platform. This enables the platform to be interoperable with the vendors in the value chain using the former mentioned standards. 
+The schemas used for the verifiable credentials are the common traceability vocabulary being developed under [W3C-CCG Traceability Vocabulary](https://w3c-ccg.github.io/traceability-vocab/). The vocabularies for relevant value chain documents, such as [crude oil](https://w3c-ccg.github.io/traceability-vocab/#CrudeOilProduct) and [natural gas](https://w3c-ccg.github.io/traceability-vocab/#NaturalGasProduct) certificates of origin, [delivery tickets](https://w3c-ccg.github.io/traceability-vocab/#OGBillOfLading), inspection reports and [in-bonds](https://w3c-ccg.github.io/traceability-vocab/#Inbond) are fully supported on the platform. This enables the platform to be interoperable with the vendors in the value chain using the former mentioned standards. 
 
 ## Revocation
 

@@ -11,6 +11,6 @@ theme:
 nav:
     - Solution: index.md
     - Data Governance: data-governance.md
-    - Key Concepts: key-concepts.md
+    - Interoperability Standards: interop-standards.md
     - API User Guide:  api-user-guide.md
 copyright: Copyright &copy; Neoflow. All rights reserved.
