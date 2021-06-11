@@ -1,8 +1,8 @@
 # Data Governance
 
-The Neoflow ecosystem will depend on close collaboration by industry and government participants of the Oil and Gas value chain to enable the creation of a digital representation of an asset with upstream and downstream trusted history. In this way, a viable ecosystem will necessitate value chain participants who are actively part of the business workflow, read, write and commit transactions on the system. These participants may run their own blockchain nodes or may have their nodes ran by Neoflow in its network operator capacity. In addition, there will be value chain ecosystem users who leverage data for the purposes of regulation, value chain monitoring or to gain market intelligence.
+The Neoflow ecosystem depends on industry and government stakeholders working together to enable the creation of a digital representation of an asset complete with lifecycle events and attributes. In this way, a viable ecosystem necessitates value chain participants who are actively part of the business workflow, read, write and commit data to the platform. These participants may run their own blockchain nodes or may have their nodes operated by Neoflow. In addition, there will be value chain ecosystem users who leverage data for the purposes of regulation, value chain monitoring or to gain market intelligence.
 
-Below table outlines the different network participants, their roles and permissions within the system, as well as examples of their function in the Oil & Gas value chain.
+The table below outlines the different network participants, their roles and permissions within the system, as well as examples of their function in the Oil & Gas value chain.
 
 | | System Roles | Permissions | Role within the Oil & Gas Value Chain |
 | - | - | - | - |
@@ -10,9 +10,9 @@ Below table outlines the different network participants, their roles and permiss
 | **Value Chain Ecosystem** | Data users | Access the system and see transactions for the purposes of monitoring | U.S. Customs and Border Protection (CBP), Canada Energy Regulator (CER) |
 | **Technology providers** | Infrastructure and applications development, IT support and additional services | No read, write or transaction issuing permissions. Only access to sample data to enhance or roll out new features with data holders’ consent. No permission to share beyond consolidated industry reports and anomaly detection. | Third party service providers |
 
-## Data Types 
+## Data Visibility  
 
-To provide user with transparency on product lifecycle and trading data, as well as ability to automate order, contract and digital border clearance, Neoflow stores five types of data. The diagram below illustrates the different layers of data and their levels of accessibility within the ecosystem. It is important to note that protected data never travels to other parties unless explicitly shared and public data is public to Neoflow members only and not the general audience.
+To provide user with transparency on product lifecycle and business data, as well as ability to automate order, contract and digital border clearance, Neoflow stores five types of data. The diagram below illustrates the different layers of data and the respective access restrictions within the ecosystem. It is important to note that protected data never travels to other parties unless explicitly shared and public data is public only within Neoflow.
 
 ![Data Layers](images/DataLayers.png)
 
@@ -29,7 +29,7 @@ For the purposes of illustration, we have included some examples of the types of
 
 ## Data Sharing and Accessibility 
 
-For each network participants, Neoflow follows the rules listed in the below table for data accessibility to ensure privacy measures. Neoflow also ensures that all Product Detailed Data owners can see which network participant holds a Degree-2 accessibility, and can grant and revoke the access at all times. 
+For each network participants, Neoflow enforces strict rules listed in the below table for data privacy and accessibility. Neoflow also ensures that all Product Detailed Data owners can see which network participant holds a Degree-2 accessibility, and can grant and revoke the access at all times. 
 
 <Table style="text-align: center;">
     <tr>
