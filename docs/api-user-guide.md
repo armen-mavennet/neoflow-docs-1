@@ -7,7 +7,7 @@ This document provides the guide to getting started on the Neoflow platform and 
 The REST APIs in Neoflow follow the OpenAPI standard specifications. These API endpoints are documented using the famous [Swagger tool](https://swagger.io/), it allows developers to interact and execute API calls directly from the Swagger UI.
 
 
-**Swagger URL -** [https://org-sandbox.neoflow.ca/api](https://org-sandbox.neoflow.ca/api)  
+**Swagger URL -** [https://api-staging.neoflow.energy/api](https://api-staging.neoflow.energy/api)  
 
 ## Authentication
 
