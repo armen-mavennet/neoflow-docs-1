@@ -126,4 +126,4 @@ Neoflow uses conventional HTTP response codes to indicate the success or failure
 
 ## Support
 
-Please contact support at support@mavennet.com.
+Please contact support at support@neoflow.energy.
