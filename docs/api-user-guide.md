@@ -40,11 +40,9 @@ POST /v1/products/transform
 
 ### Ownership transfer
 
-The ownership transfer of the product is carried out in three steps:
-
+The ownership transfer of the product is carried out in two steps:
 1. The current owner organization creates an ownership transfer request for the product with the prospective new owner of the product.
-2. The prospective new owner receives the request, can fetch/review the information in the request and either accept it or request for change in the transfer request.
-3. If the request is accepted by the prospective new owner then the current owner can actually make the transfer of product to the new owner. This will create a transfer of ownership event which will be associated to the product. If the changes are requested then the current owner can make corresponding changes and start with step 2.
+2. The prospective new owner receives the request, can fetch/review the information in the request and either accept it or request for change in the transfer request. If the request is accepted by the prospective, the transfer of ownership event automatically occur which will be associated to the product. If the changes are requested then the current owner can make corresponding changes.
 
 ```http
 POST /v1/products/transferownership/requests  
@@ -57,11 +55,9 @@ DELETE /v1/products/transfer/requests
 
 #### Custody transfer
 
-The custody transfer of the product follows similar three steps process as ownership transfer:
-
+The custody transfer of the product follows similar two steps process as ownership transfer:
 1. The current owner or the custodian organization creates a custody transfer request for the product with the prospective new custodian of the product.
-2. The prospective new custodian receives the request, can fetch/review the information in the request and either accept it or request for change in the transfer request.
-3. If the request is accepted by the prospective new custodian then the current owner or the custodian can actually make the custody transfer of product to the new custodian. This will create a transfer of custody event which will be associated to the product. If the changes are requested then the current owner can make corresponding changes and start with step 2.
+2. The prospective new custodian receives the request, can fetch/review the information in the request and either accept it or request for change in the transfer request. If the request is accepted by the prospective new custodian, the transfer of ownership event automatically occur which will be associated to the product. If the changes are requested then the current owner can make corresponding changes.
 
 ```http
 POST /v1/products/transfercustody/requests  
