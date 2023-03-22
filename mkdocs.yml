@@ -14,6 +14,6 @@ nav:
     - Introduction: index.md
     - Platform Overview: platform-overview.md
     - Data Governance: data-governance.md
-    - Interoperability Standards: interop-standards.md
+    - Key Concepts: key-concepts.md
     - API User Guide:  api-user-guide.md
 copyright: Copyright &copy; Neoflow. All rights reserved.
