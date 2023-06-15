@@ -30,7 +30,7 @@ GET /v1/products
 GET /v1/products/{id}  
 ```
 
-### Transformation
+<!-- ### Transformation
 
 Within a lifecycle of the product(s), the owner of the product(s) can upgrade, refine, blend, pool and split into multiple child products. Every new transformed child product issues a verifiable credential. Eg. Bitumen and Naphtha can be upgraded to Crude Oil. Gasoline can be split into multiple gasoline batches. Each transformation is stored as an event associated to the product.
 
@@ -67,7 +67,7 @@ POST /v1/products/transfercustody
 POST /v1/products/transfer/requests  
 DELETE /v1/products/transfer/requests  
 ```
-
+-->
 ### Transport
 
 The custodian organization transports the product from one location to another. This movement is recorded in Neoflow in the form of `start` and `end` transport events. Bill of Lading details are captured at during this process. Transport events support correction of the details using the VC revocation standards.
@@ -76,7 +76,7 @@ The custodian organization transports the product from one location to another. 
 POST /v1/products/transport  
 PUT /v1/products/transport  
 ```
-
+<!--
 ### Storage
 
 The owner or custodian organization stores the product at a given tank location. This is recorded in Neoflow as `start` event - indicating the product is in storage at the tank location and `end` event - indicating the product is out of storage.
@@ -109,7 +109,7 @@ Neoflow enables users to submit pre-arrival and "intent to import" information t
 ```http
 POST /v1/products/certify  
 ```
-
+-->
 ### Share
 
 The owner of the product can share or unshare the product with another organization(s). If the product is shared, an organization can access all the product details such as product's physical and chemical specifications, associated events with their location of occurrence, origin, product's composition/traceablility hierarchy and uploaded documents if any.
