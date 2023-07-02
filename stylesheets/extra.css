@@ -1,0 +1,20 @@
+:root {
+    --md-primary-fg-color:        #0A285C;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.md-typeset details {
+
+   border: 0;
+   border-radius: 10px;
+   margin: 1.1em 0;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
