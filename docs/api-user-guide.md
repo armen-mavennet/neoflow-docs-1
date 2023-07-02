@@ -6,7 +6,7 @@ This document provides the guide to getting started on the Neoflow platform and 
 
 The REST APIs in Neoflow follow the OpenAPI standard specifications. These API endpoints are documented using the [OpenApi Specification](https://swagger.io/specification/).
 
-**Swagger URL -** [https://api.staging.neoflow.energy/api](https://api.staging.neoflow.energy/api)  
+**Swagger URL -** [https://api.mavennet.com/](https://api.mavennet.com/)  
 
 ## Authentication
 
