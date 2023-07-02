@@ -2,7 +2,7 @@
 
 Neoflow is a platform that allows users to create digital credentials of energy commodities with verifiable and end-to-end information of lifecycle events, attributes, ownership, custody, origin and location. 
 
-Relevant information in the value chain of a commodity, such as bills of lading, delivery tickets, certificates of origin, among others, are digitized to streamline data exchange and automate regulatory and import reporting processes. 
+Key information in the value chain of a commodity, such as bills of lading, delivery tickets, certificates of origin, among others, are digitized to streamline data exchange and automate regulatory and import reporting processes. 
 
 ![PlatformOverview](images/PlatformOverview.png){: .center }
 
@@ -21,13 +21,18 @@ In the context of Neoflow, a Neoflow event is intended to digitally represent a 
 The lifecycle of the commodity is mapped with below set of supply chain events on the Neoflow platform. These events are compatible with [GS1 EPCIS](https://www.gs1.org/standards/epcis).
 
 * Creation of commodity (or product)
-* Transformation
+<!---* Transformation
 * Inspection
 * Transfer of Ownership
 * Transfer of Custody
 * In-Bond
 * Transportation
-* Storage
+* Storage -->
+* Delivery Scheduled
+* In Transit
+* Delivered
+* CBP Entry
+
 
 Events are exposed as Verifiable Credentials that are self-issued by the event creator and are defined on the [Traceability-Vocab](https://github.com/w3c-ccg/traceability-vocab).
 
